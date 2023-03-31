@@ -1,0 +1,4 @@
+
+SELECT * FROM gerente;
+
+ALTER TABLE almacen MODIFY id_gerente BIGINT UNSIGNED UNIQUE NOT NULL;
